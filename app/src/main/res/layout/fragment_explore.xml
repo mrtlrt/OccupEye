@@ -1,0 +1,210 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/topimage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/kitchenbg" />
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="@color/homescreenbg"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/maintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/montagubold"
+            android:text="Kitchen"
+            android:textAlignment="textStart"
+            android:textColor="@color/iconhover"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+
+
+    <!-- crowdtext TextView and crowdindicator ImageView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:backgroundTint="@color/homescreenbg">
+
+                <TextView
+                    android:id="@+id/crowdtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Crowd"
+                    android:fontFamily="@font/montagubold"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:id="@+id/crowdindicator"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/circle" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descriptiontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="Description"
+                android:fontFamily="@font/montagusemi"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/montaguregular"
+        android:text="A kitchen is a room in a home or building used for cooking and food preparation. It typically contains a variety of appliances, tools, and cabinets for storing food, dishes, and cooking utensils. Some common kitchen appliances include a refrigerator, oven, stove, dishwasher, and microwave. Kitchens often have countertops for food preparation and sink areas for washing dishes and produce."
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="13.5sp" />
+
+    <TextView
+                android:id="@+id/relatedtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Related"
+                android:fontFamily="@font/montagusemi"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textAlignment="textStart" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/homescreenbg">
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:contentDescription="Hostel"
+                    android:layout_height="50dp"
+                    android:layout_width="50dp"
+                    android:background="@drawable/circlebutton"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:src="@drawable/hostelbutton"
+                    android:layout_marginLeft="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/circlebutton"
+                    android:contentDescription="Library"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:src="@drawable/libbutton" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:backgroundTint="@color/homescreenbg">
+
+                <TextView
+                    android:id="@+id/hosteltext"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Hostel"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montagulight"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/kitchentext"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Library"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montagulight"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/imagestext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="Images"
+                android:fontFamily="@font/montagusemi"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textAlignment="textStart" />
+
+            <!-- Add the rest of your views and nested LinearLayouts inside this parent LinearLayout -->
+            <!-- Remove fixed layout_marginTop values where necessary -->
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/imageSlider"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="50dp"
+                app:sliderAnimationDuration="1000"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="@color/iconhover"
+                app:sliderIndicatorUnselectedColor="@color/iconhoverlight"
+                app:sliderScrollTimeInSec="4"
+                app:sliderStartAutoCycle="true"/>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
+
+
+
+

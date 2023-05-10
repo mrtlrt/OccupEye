@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1040185009084",
+    "project_id": "occupeye-dedb8",
+    "storage_bucket": "occupeye-dedb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040185009084:android:5e603f85e96c5061ad41b9",
+        "android_client_info": {
+          "package_name": "com.example.occupeye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040185009084-4miv0klmhunfbtiq5r86aggclp84k45k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2GWiDNC72HpIeTJ5FQ3ibdT_C90iTcbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040185009084-4miv0klmhunfbtiq5r86aggclp84k45k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

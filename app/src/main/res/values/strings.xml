@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">OccupEye</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="location_full_text">
+        <item>
+            Block 55
+        </item>
+        <item>
+            Block 57
+        </item>
+        <item>
+            Block 59
+        </item>
+    </string-array>
+
+    <string name="studyrooms">Study rooms are an important component of academic environments, providing a quiet and focused space for students to work on their coursework and prepare for exams. These rooms are typically equipped with desks, chairs, and other study essentials such as whiteboards, projectors, and computer workstations. Some study rooms are designed for individual use, while others are larger and can accommodate groups of students. Overall, study rooms are an important part of the academic experience, providing students with a quiet and focused space to study and learn. By offering a variety of study spaces and resources, academic institutions can help their students succeed and achieve their academic goals.</string>
+    <string name="hostel">A hostel is a type of accommodation that provides budget-friendly lodging for travelers, students, and backpackers. Hostels are known for their dormitory-style accommodations, which usually consist of bunk beds in shared rooms. However, some hostels also offer private rooms with en suite bathrooms. Hostels are typically less expensive than hotels, making them a popular choice for budget-conscious travelers. They also provide a social atmosphere, with communal areas where guests can meet and interact with other travelers from around the world. Many hostels offer additional amenities such as shared kitchens, laundry facilities, lockers, and free Wi-Fi. Hostels can be found in most major cities and tourist destinations around the world, and are a great option for those who are looking for an affordable and social way to travel.</string>
+    <string name="library">A library is a place where books, magazines, newspapers, and other materials are kept for people to read, study, or borrow. Libraries play a vital role in education, research, and personal development. They provide access to a vast range of knowledge and resources that can help people to expand their minds, broaden their perspectives, and enhance their skills. Libraries offer a peaceful and quiet environment for reading and studying, and many also provide facilities such as computers, printing services, and meeting rooms. In addition to traditional print materials, many libraries also offer digital resources such as e-books, online databases, and multimedia content. Libraries are often seen as a symbol of knowledge and intellectual curiosity, and they continue to be an essential institution in the modern world.</string>
+    <string name="college">Singapore University of Technology and Design (SUTD) is a leading institution for higher education and research, located in Singapore. Established in 2009, SUTD was founded in collaboration with the Massachusetts Institute of Technology (MIT) and the Zhejiang University. This innovative partnership aims to create a unique learning environment that combines the best of East and West, fostering a global perspective among its students and faculty.The universitys curriculum emphasizes hands-on learning, collaborative projects, and research opportunities, enabling students to apply their knowledge to real-world situations. SUTDs faculty includes renowned scholars and researchers from around the world, who are dedicated to providing a holistic education and inspiring students to explore, innovate, and excel.</string>
+
+</resources>
